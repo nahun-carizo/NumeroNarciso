@@ -1,4 +1,4 @@
-function EsNarciso(n){
+function EsNarci(n){
 	let aux=0, aux1=0, aux2=0, aux3=0, aux5=0;
 
 	for(let k=1; k<n+1; k++){
@@ -9,7 +9,7 @@ function EsNarciso(n){
 			aux2=k-aux1*10;
 
 			if((Math.pow(aux1,2)+Math.pow(aux2,2))==k){
-				document.write('El numero '+k+' es narciso <br>');
+				document.write('El numero '+k+' es narciso porque si<br>');
 			}
 		}else{
 			if(k<1000){		
@@ -24,7 +24,7 @@ function EsNarciso(n){
 				aux3=k-((aux1*100)+(aux2*10));
 
 				if((Math.pow(aux1,3)+Math.pow(aux2,3)+Math.pow(aux3,3))==k){
-					document.write('El numero '+k+' es narciso <br>');
+					document.write('El numero '+k+' es narciso o eso es lo que creo<br>');
 				}
 			}else{
 				if(k<10000){
@@ -43,7 +43,7 @@ function EsNarciso(n){
 					aux4=k-((aux1*1000)+(aux2*100)+(aux3*10));
 
 					if((Math.pow(aux1,4)+Math.pow(aux2,4)+Math.pow(aux3,4)+Math.pow(aux4,4))==k){
-						document.write('El numero '+k+' es narciso <br>');
+						document.write('El numero '+k+' es narciso segun yo<br>');
 					}
 				}
 			}
